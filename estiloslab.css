@@ -27,7 +27,7 @@
     
 #cuerpo{
   width:1000px;
-  height:900px;
+  height:1000px;
   background-color:cornsilk;
 }
     
@@ -36,10 +36,15 @@
   height:200px;
   background-color:#E94141;
 }
+#footer-superior{
+  width:1000px;
+  height:3o0px;
+  background-color:mediumslateblue;
+}
 
 #cuerpo-left{
-  width:400px;
-  height:300px;
+  width:500px;
+  height:600px;
   /* O atributo Float es utilizado para que nuestro bloque (div)
   literalmente "flote" y se posicione donde queremos en la página,
   cuando escogemos left, decimos que ese bloque se posicionará en la
@@ -48,8 +53,8 @@
   background-color:cornflowerblue;
 }
 #cuerpo-right{
-  width:600px;
-  height:300px;
+  width:500px;
+  height:600px;
   /* Puede parecer extraño usar el mismo atributo left para el bloque
   en que queremos posicionar a la derecha, pero como sabemos, CSS es un estilo
   em cascada, nuestro div cuerpo fue definida con ancho de 1000px y el
